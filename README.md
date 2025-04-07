@@ -7,7 +7,7 @@ Requires: config.ini
 
 Function: Reduces recoil for better aim.
 
-Customizable settings via config.ini.
+Customizable config with dozens of features.
 
 🧠 TriggerBot.ahk
 Pixel-based trigger bot using PixelGetColor.
@@ -34,9 +34,7 @@ Paste the following into your CS2 cfg folder:
 
 Movement folder
 
-autoexec.cfg
-
-nulls.cfg
+Extract CFG folder into your cfg file in cs2 game directory
 
 Launch your AHK scripts.
 
