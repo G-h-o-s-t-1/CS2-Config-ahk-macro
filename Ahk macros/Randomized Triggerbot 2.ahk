@@ -10,7 +10,7 @@ offsetY := 1
 fireDelayMin := 0.45             ; ms
 fireDelayMax := 0.75         ; ms
 checkInterval := 0          ; ms between checks
-whiteIgnoreThreshold := 80   ; Skip bright pixels
+whiteIgnoreThreshold := 200   ; Skip bright pixels
 
 Shoot() {
     DllCall("mouse_event", "UInt", 0x02, "UInt", 0, "UInt", 0, "UInt", 0, "UPtr", 0)
